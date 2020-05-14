@@ -1,0 +1,7 @@
+
+onLoadName = "Crimson Jupiter";
+onLoadMission = "";
+author = "CNTO Mission Making Team";
+loadScreen = "loadLogo.jpg";
+
+// ============================================================================================
