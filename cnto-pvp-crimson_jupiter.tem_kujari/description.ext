@@ -47,7 +47,7 @@ class CfgDebriefing
 	};
 	class END2
 	{
-		description = "Terrorist Win";
+		description = "Insurgents Win";
 		showScore = 0;
 	};	
 };
