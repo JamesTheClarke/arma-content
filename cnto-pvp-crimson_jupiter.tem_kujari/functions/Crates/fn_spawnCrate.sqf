@@ -1,10 +1,15 @@
-/* Spawns a crate at random position from the list of possible locations. */
+/* Fills a crate at random position from the list of possible crates. */
 
-params ["_possibleLocations"];
+params ["_possibleCrates"];
 
-private _cratePosition = getMarkerPos selectRandom _possibleLocations;
-private _weaponCache = "rhs_weapon_crate" createVehicle _cratePosition;
+private _weaponCache = selectRandom _possibleCrates;
 
+// show cache
+_weaponCache hideObjectGlobal false;
+_weaponCache enableSimulationGlobal true;
+_weaponCache allowDamage true;
+
+// clear cache contents
 clearWeaponCargoGlobal _weaponCache;
 clearMagazineCargoGlobal _weaponCache;
 clearItemCargoGlobal _weaponCache;
