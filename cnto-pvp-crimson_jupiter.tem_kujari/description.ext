@@ -1,7 +1,53 @@
+class Header
+{
+	gameType = Sandbox;	// Game type
+	minPlayers = 1;	// minimum number of players the mission supports
+	maxPlayers = 30;	// maximum number of players the mission supports
+};
 
+dev = "CNTO Mission Making Team";
 onLoadName = "Crimson Jupiter";
 onLoadMission = "";
 author = "CNTO Mission Making Team";
 loadScreen = "loadLogo.jpg";
 
-// ============================================================================================
+respawn = 1; // Respawn as seagull
+respawnTemplates[] = { "Spectator", "EndMission" };
+disabledAI = 1; // Disable AI
+
+// Mission functions
+class CfgFunctions
+{
+	class CJ
+	{
+		class Crates
+		{
+			class spawnCrate {};
+			class registerCrateLocations {};
+			class randomizeCacheContents {};
+		};
+		class Objectives
+		{
+			class randomizeObjective {};
+		};
+		class Init
+		{
+			class initializeMission {};
+		};
+	};
+};
+
+// Mission endings
+class CfgDebriefing
+{
+	class END1
+	{
+		description = "BLUFOR Win";
+		showScore = 0;
+	};
+	class END2
+	{
+		description = "Terrorist Win";
+		showScore = 0;
+	};	
+};
