@@ -2,13 +2,13 @@ class Header
 {
 	gameType = Sandbox;	// Game type
 	minPlayers = 1;	// minimum number of players the mission supports
-	maxPlayers = 30;	// maximum number of players the mission supports
+	maxPlayers = 50;	// maximum number of players the mission supports
 };
 
 dev = "CNTO Mission Making Team";
 onLoadName = "Crimson Jupiter";
 onLoadMission = "";
-author = "CNTO Mission Making Team";
+author = "Highway & Clarke";
 loadScreen = "loadLogo.jpg";
 
 respawn = 1; // Respawn as seagull

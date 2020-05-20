@@ -3,3 +3,5 @@
 
 private _possibleCrateLocations = [] call CJ_fnc_registerCrateLocations;
 [_possibleCrateLocations] call CJ_fnc_spawnCrate;
+
+allowedPlayers = ["Pilot_1","Pilot_2"];
