@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=748;
+		nextID=749;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=34;
+		nextID=44;
 	};
 	class Camera
 	{
-		pos[]={12374.03,33.48946,7344.2363};
-		dir[]={0.6947102,-0.69426024,-0.18841219};
-		up[]={0.67006135,0.71972585,-0.18172807};
-		aside[]={-0.26176891,-4.1350722e-007,-0.96518791};
+		pos[]={12743.085,22.414347,5767.5459};
+		dir[]={0.12069923,-0.78986514,0.60128909};
+		up[]={0.15545252,0.61327648,0.77441937};
+		aside[]={0.98044348,2.3283064e-010,-0.19680856};
 	};
 };
 binarizationWanted=0;
@@ -96,13 +96,14 @@ addons[]=
 	"acre_sys_prc148",
 	"FFCamoPack_Common",
 	"acre_sys_prc117f",
-	"A3_Weapons_F_Ammoboxes"
+	"A3_Weapons_F_Ammoboxes",
+	"cnto_assets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=59;
+		items=60;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -484,6 +485,11 @@ class AddonsMetaData
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
+		class Item59
+		{
+			className="cnto_assets";
+			name="cnto_assets";
+		};
 	};
 };
 randomSeed=7083379;
@@ -624,7 +630,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=232;
+		items=233;
 		class Item0
 		{
 			dataType="Marker";
@@ -1808,14 +1814,15 @@ class Mission
 					class PositionInfo
 					{
 						position[]={12743.861,14.525432,5772.2397};
-						angles[]={0,4.1668339,0};
+						angles[]={0,2.6845605,0};
 					};
 					side="East";
 					flags=7;
 					class Attributes
 					{
-						init="call{this addAction [""Go to objective"", {" \n "  params [""_target""];" \n "  _target setPos getMarkerPos CJ_objective;" \n "}];}";
 						name="CJ_testPlayer";
+						isPlayer=1;
+						isPlayable=1;
 					};
 					id=107;
 					type="LOP_AM_OPF_Infantry_GL";
@@ -19033,7 +19040,6 @@ class Mission
 						rank="LIEUTENANT";
 						init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
 						description="Alpha Squad Leader@ALPHA";
-						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
@@ -21282,6 +21288,7 @@ class Mission
 					};
 					id=569;
 					type="O_Soldier_AAR_F";
+					atlOffset=-2.4795532e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24709,6 +24716,7 @@ class Mission
 					};
 					id=584;
 					type="O_medic_F";
+					atlOffset=-3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -40869,7 +40877,7 @@ class Mission
 					showWP="NEVER";
 					id=710;
 					type="Move";
-					atlOffset=6.1988831e-005;
+					atlOffset=6.2942505e-005;
 				};
 				class Item2
 				{
@@ -41636,6 +41644,25 @@ class Mission
 			};
 			id=747;
 			type="B_Kitbag_rgr";
+		};
+		class Item232
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12744.65,14.552876,5771.1001};
+				angles[]={0.020001473,0,0.0075049158};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{[this] call CJ_fnc_registerSpecialBackpack;}";
+				name="CJ_demoSpecialBackpack";
+			};
+			id=748;
+			type="cnto_vanilla_carryall_blk";
+			atlOffset=9.5367432e-007;
 		};
 	};
 };
