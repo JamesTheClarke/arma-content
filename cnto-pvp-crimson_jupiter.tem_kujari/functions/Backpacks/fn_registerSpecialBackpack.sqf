@@ -14,6 +14,7 @@ params ["_backpack"];
 
 		private _contents = [
 			weaponCargo _backpack,
+			weaponsItems _backpack,
 			magazineCargo _backpack,
 			itemCargo _backpack
 		];
