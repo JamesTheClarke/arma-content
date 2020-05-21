@@ -26,6 +26,12 @@ class CfgFunctions
 			class registerCrateLocations {};
 			class randomizeCacheContents {};
 		};
+		class Backpacks
+		{
+			class registerSpecialBackpack {};
+			class registerSpecialBackpackHolder {};
+			class holdActionProgress {};
+		};
 		class Objectives
 		{
 			class randomizeObjective {};
