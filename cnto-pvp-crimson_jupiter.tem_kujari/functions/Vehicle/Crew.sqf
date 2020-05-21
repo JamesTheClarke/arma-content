@@ -3,14 +3,14 @@ Crew check script - v0.3
 Checks for crew in positions of vehicle
 Created by BearBison
 */
-/* Private variables */
-private ["_Vehicle","_Soldier","_Position","_CrewCheck"];
+
 /* Defines the variables */
-_Vehicle = _this select 0;
-_Position = _this select 1;
-_Soldier = _this select 2;
+private _Vehicle = _this select 0;
+private _Position = _this select 1;
+private _Soldier = _this select 2;
+
 /* Checks the crew */
-_CrewCheck =
+private _CrewCheck =
 {
    switch (_Position) do
    {
