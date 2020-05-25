@@ -1,5 +1,5 @@
-# Arma3 PvP Missions
-A selection of PvP missions created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
+# Arma 3 Missions
+A selection of missions created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
 
 These missions are intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
 
