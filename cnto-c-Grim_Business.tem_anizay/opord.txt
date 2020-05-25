@@ -1,0 +1,101 @@
+[b]Map:[/b] Anizay
+[b]Time:[/b] 21:30
+[b]Weather:[/b] Clear night, light wind
+[b]Host:[/b] [user]11341464[/user]
+
+
+
+
+[center][size=6][u][b]OPORD[/b][/u][/size][/center]
+
+
+
+[center][size=5][b]I Situation:[/b][/size][/center]
+
+The region of Anizay has been in turmoil for the past two years - two opposing factions have carved up the province. The religious extremist group "Golden Tiger" controls the industrious North, they are hostile, numerous and well armed but lack discipline and coordination. A mercenary company called the "Devil Dogs" seized the opportunity of the current conflict and occupied the rural South, forcing locals to grow opium in order to fund their expansion. The Devil Dogs are roughless and cunning, but currently are limited by their size and equipement, thus favouring hit and run attacks over all out assaults.
+
+Two weeks ago the Golden Tigers managed to capture the Governor of Anizay and they are threatening to behead him if the US Army does not abandon its last two FOBs "Nauzad" and "Obeh". Despite our intelligence services best efforts we could not locate the Governor. Time is running short, HQ has agreed to a shady deal with the Devil Dogs: a truck (HEMTT) full of equipment and three crates of modern launchers for the intel we need to mount a rescue operation. The mercenaries have agreed to meet us on neutral ground: the civilian town of Makan Aljamal.
+
+
+[b]Friendly Forces:[/b]
+[indent][list]
+[*] US Army
+[/list][/indent]
+
+[b]Assets:[/b]
+[indent][list]
+[*] 2x MRAP (unarmed)
+[*] 2x HMMWV LMG
+[*] 2x HMMWV (unarmed)
+[*] 2x M1117 ASV (LMG & GL) - DAGGER
+[*] 1x HEMTT
+[*] 1x Little Bird (armed, thermal optics are broken)
+[*] 1x Blackhawk (armed)
+[/list][/indent]
+
+[b]Neutral Forces:[/b]
+[indent][list]
+[*] Devil Dogs (Russian Mercenaries)
+[/list][/indent]
+
+[b]Enemy Forces:[/b]
+[indent][list]
+[*] Golden Tigers (Middle Eastern Militia)[/list][/indent]
+
+[b]Civilian Presence:[/b]
+[indent][list]
+[*] High likelyhood
+[/list][/indent]
+
+
+
+[center][size=5][b]II Mission:[/b][/size][/center]
+
+1.) Form up a convoy and deliver the HEMTT & three launcher supply crates to the town of Makan Aljamal.
+
+2.) Meet the leader of the Devils Dogs named Darren Voight and receive the location of the Governor.
+
+3.) Mount a rescue operation.
+
+
+
+[center][size=5][b]III Execution:[/b][/size][/center]
+
+[b]Commander’s intent[/b]
+[indent][list]
+[*] Ensure no civilians are harmed
+[*] FOB Nauzad is not equipped with NVGs - element leaders are advised to stock up on UGL flares
+[*] DO NOT PROVOKE or ENGAGE the Devil Dogs - we may need them in the future
+[*] During the meeting KEEP WEAPONS LOWERED AT ALL TIMES and MAINTAIN WALKING PACE - sudden movements may escalate the situation
+[/list][/indent]
+
+[b]Movement Plan[/b]
+[indent][list]
+[*] Inside the town of Makan Aljamal maintain walking pace and drive slowly
+[*] Rescue operation: movement is up to PLTs discretion, however, if you enter other Devil Dog occupied towns they may fire upon you.
+[/list][/indent]
+
+[b]Fire Support[/b][indent][list]
+[*] 24x Howitzer rounds, standing by at FOB "Obeh"[/list][/indent]
+
+[b]Optional Tasks[/b]
+[indent][list]
+[*] N/A
+[/list][/indent]
+
+
+
+[center][size=5][b]IV Administration / Logistics:[/b][/size][/center]
+
+[b]Resupplying[/b]
+[indent][list]
+[*] A set number of supplies and equipment has been placed at the base and can be retrieved whenever needed.[/list][/indent]
+
+[b]Reinforcements:[/b]
+[indent][list]
+[*] Reinsertions will be on the hour every hour and be adhered to strictly, no deviation is allowed. Reinsertions are the same for all, including vehicles teams.
+[*] Platoon Commander has a one time reinsertion wild card at his disposal call this in through HQ.
+[*] At predesignated times, reinforcements will be sent out of the base in smallest transport vehicle which can hold reinforcements
+[*] At predesignated times, an air transport will be sent out to pick up reinforcements from the base
+[*] At predesignated times, an armed escort vehicle will be sent out to escort reinforcements from the base
+[*] Upon insertion to the AO, reinforcements should stick together until regrouping with the main force in the AO[/list][/indent]
