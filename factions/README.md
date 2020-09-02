@@ -7,9 +7,12 @@ A list describing each scenario will be published in time on the wiki tab.
 
 
 
+
 ## Installation
 Place the faction composition folders in the following path:
-C:\Users\USERNAME\Documents\Arma 3 - Other Profiles\PROFILENAME\compositions
+
+*C:\Users\USERNAME\Documents\Arma 3 - Other Profiles\PROFILENAME\compositions*
+
 
 
 
