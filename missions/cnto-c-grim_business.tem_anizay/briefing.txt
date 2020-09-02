@@ -1,0 +1,109 @@
+// === SITUATION ===
+
+The region of Anizay has been in turmoil for the past two years - two opposing factions have carved up the province. The local religious extremist group <marker name='marker_4'>Golden Tiger</marker> controls the industrious North, they are hostile, numerous and well armed but lack discipline and coordination. 
+ 
+A Russian mercenary company called the <marker name='marker_12'>Devil Dogs</marker> seized the opportunity of the current conflict and occupied the rural South, forcing locals to grow opium in order to fund their expansion. The Devil Dogs are roughless and cunning, but currently are limited by their size and equipment, thus favouring hit and run attacks over all-out assaults.   
+ 
+Two weeks ago the Golden Tigers managed to capture the Governor of Anizay and they are threatening to behead him if the US Army does not abandon its last two FOBs <marker name='respawn_west'>Nauzad</marker> and <marker name='marker_10'>Obeh</marker>. Despite our intelligence services best efforts we could not locate the Governor. Time is running short. HQ has agreed to a shady deal with the Devil Dogs - a truck (HEMTT) full of equipment and three crates of modern launchers for the intel we need to mount a rescue operation. 
+ 
+They have agreed to meet us on neutral ground: the town of <marker name='marker_23'>Makan Aljamal</marker>. 
+ 
+ 
+<font color='#b3b3b3' size='14'>Friendly Forces</font color> 
+ 
+US Army 
+ 
+ 
+<font color='#b3b3b3' size='14'>Assets</font color> 
+ 
+2x MRAP (unarmed)
+2x HMMWV LMG
+2x HMMWV (unarmed)
+2x M1117 ASV (LMG + GL) - DAGGER
+1x HEMTT
+1x Little Bird (armed, thermal optics are broken)
+1x Blackhawk (armed)
+ 
+
+ <font color='#b3b3b3' size='14'>Neutral Forces</font color> 
+ 
+Devil Dogs (Russian Mercenaries) 
+ 
+ 
+<font color='#b3b3b3' size='14'>Enemy Forces</font color> 
+ 
+Golden Tigers (Middle Eastern Militia) 
+ 
+ 
+<font color='#b3b3b3' size='14'>Civilian Presence</font color> 
+ 
+High likelyhood
+
+
+
+// === MISSION ===
+
+1.) Form up a convoy and deliver the HEMTT and three launcher supply crates to the town of <marker name='marker_23'>Makan Aljamal</marker>. 
+ 
+2.) Meet the leader of the Devils Dogs named Darren Voight and receive the location of the Governor. 
+ 
+3.) Mount a rescue operation.
+
+
+
+// === EXECUTION ===
+
+<font color='#b3b3b3' size='14'>Commander’s Intent</font color>
+
+Ensure no civilians are harmed.
+
+FOB Nauzad is not equipped with NVGs - element leaders are advised to stock up on UGL flares.
+
+DO NOT PROVOKE or ENGAGE the Devil Dogs - we may need them in the future.
+
+During the meeting KEEP WEAPONS LOWERED AT ALL TIMES and MAINTAIN WALKING PACE - sudden movements may escalate the situation.
+
+
+<font color='#b3b3b3' size='14'>Movement Plan</font color>
+
+Inside the town of <marker name='marker_23'>Makan Aljamal</marker> maintain walking pace and drive slowly.
+
+Movement is up to PLTs discretion, however, if you enter other Devil Dog occupied towns they may fire upon you.
+
+
+<font color='#b3b3b3' size='14'>Fire Support</font color>
+
+24x Howitzer rounds, standing by at FOB <marker name='marker_10'>Obeh</marker>.
+
+
+<font color='#b3b3b3' size='14'>Fire Support</font color>
+
+N/A
+
+
+
+// === ADMINISTRATION / LOGISTICS ===
+
+<font color='#b3b3b3' size='14'>Resupplying</font color>
+
+A set number of supplies and equipment has been placed at the base and can be retrieved whenever needed.
+
+
+
+// === ADDITIONAL INTEL ===
+
+<font color='#b3b3b3' size='14'>Governor</font color> 
+
+<img image='images\governor.jpg' width='390' height='270'/>
+
+
+
+<font color='#b3b3b3' size='14'>Devil Dogs</font color> 
+
+<img image='images\devildogs.jpg' width='390' height='270'/>
+
+
+
+<font color='#b3b3b3' size='14'>Golden Tigers</font color> 
+
+<img image='images\goldentigers.jpg' width='390' height='270'/>

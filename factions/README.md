@@ -1,7 +1,7 @@
-# Arma 3 Missions
-A selection of content created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
+# Arma 3 Factions
+A selection of faction compositions created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
 
-This content intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
+These faction compositions are intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
 
 A list describing each scenario will be published in time on the wiki tab.
 
