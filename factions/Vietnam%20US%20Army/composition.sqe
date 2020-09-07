@@ -1,5 +1,5 @@
 version=53;
-center[]={1951.7006,5,6466.8647};
+center[]={3132.3984,5,1382.2186};
 class items
 {
 	items=22;
@@ -8,7 +8,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={5.7646484,0.14963102,-7.9086914};
+			position[]={5.7524414,0.14963102,-7.8879395};
 			angles[]={-0,1.5258367,0};
 		};
 		side="Empty";
@@ -49,7 +49,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={7.8686523,0.89242268,-9.3598633};
+			position[]={7.8564453,0.89242268,-9.3391113};
 		};
 		side="Empty";
 		flags=4;
@@ -88,7 +88,7 @@ class items
 	class Item2
 	{
 		dataType="Marker";
-		position[]={2.0673828,2.4371225e+032,-4.8334961};
+		position[]={2.0551758,2.4371225e+032,-4.8127441};
 		name="respawn_west";
 		type="respawn_unknown";
 		angle=359.38086;
@@ -98,7 +98,7 @@ class items
 	class Item3
 	{
 		dataType="Marker";
-		position[]={6.9257813,0,-8.003418};
+		position[]={6.9135742,0,-7.982666};
 		name="resupply_marker_4";
 		text="Resupply";
 		type="mil_triangle";
@@ -110,7 +110,7 @@ class items
 		dataType="Comment";
 		class PositionInfo
 		{
-			position[]={4.1466064,0.001999855,-6.0888672};
+			position[]={4.1345215,0.001999855,-6.0681152};
 		};
 		title="v1.14.2";
 		id=4;
@@ -121,7 +121,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={7.6416016,0,-4.7905273};
+			position[]={7.6293945,0,-4.7697754};
 		};
 		side="Empty";
 		flags=4;
@@ -169,14 +169,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.8833008,0.0014390945,8.8989258};
+					position[]={-5.8955078,0.0014390945,8.9196777};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="MAJOR";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Platoon Commander@PLATOON";
 					isPlayable=1;
 					class Inventory
@@ -507,14 +507,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8837891,0.0014390945,8.8979492};
+					position[]={-4.8959961,0.0014390945,8.9187012};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CAPTAIN";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Platoon Sergeant";
 					isPlayable=1;
 					class Inventory
@@ -793,13 +793,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-3.8837891,0.0014390945,8.8979492};
+					position[]={-3.8959961,0.0014390945,8.9187012};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Platoon Medic";
 					isPlayable=1;
 					class Inventory
@@ -1120,13 +1120,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.8837891,0.0014390945,8.8979492};
+					position[]={-2.8959961,0.0014390945,8.9187012};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Platoon Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -1397,15 +1397,16 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.8453369,0.0014390945,5.9819336};
+					position[]={-5.8574219,0.0014390945,6.0028076};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="LIEUTENANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha Squad Leader@ALPHA";
+					isPlayer=1;
 					isPlayable=1;
 					class Inventory
 					{
@@ -1753,13 +1754,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8447266,0.0014390945,5.980957};
+					position[]={-4.8574219,0.0014390945,6.0018311};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha Squad Medic";
 					isPlayable=1;
 					class Inventory
@@ -1962,44 +1963,6 @@ class items
 				{
 					class Attribute0
 					{
-						property="lambs_danger_disableAI";
-						expression="if (_value) then { _this setVariable ['lambs_danger_disableAI', _value, true]; }";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="a3aa_ee_extended_gear_insignia";
-						expression="[_this, _value] call a3aa_ee_extended_gear_fnc_insignia";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="";
-							};
-						};
-					};
-					class Attribute2
-					{
 						property="a3aa_ee_acre_channels_chlist";
 						expression="_this setVariable [""a3aa_ee_acre_channels_chlist"",_value,true]";
 						class Value
@@ -2034,7 +1997,7 @@ class items
 							};
 						};
 					};
-					class Attribute3
+					class Attribute1
 					{
 						property="lambs_danger_dangerRadio";
 						expression="if (_value) then { _this setVariable ['lambs_danger_dangerRadio', _value, true]; }";
@@ -2053,7 +2016,26 @@ class items
 							};
 						};
 					};
-					class Attribute4
+					class Attribute2
+					{
+						property="lambs_danger_disableAI";
+						expression="if (_value) then { _this setVariable ['lambs_danger_disableAI', _value, true]; }";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					class Attribute3
 					{
 						property="unitInsignia";
 						expression="[_this,_value] call BIS_fnc_setUnitInsignia;";
@@ -2072,7 +2054,64 @@ class items
 							};
 						};
 					};
-					nAttributes=5;
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="a3aa_ee_extended_gear_insignia";
+						expression="[_this, _value] call a3aa_ee_extended_gear_fnc_insignia";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					nAttributes=7;
 				};
 			};
 			class Item2
@@ -2080,14 +2119,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.8447266,0.0014390945,3.980957};
+					position[]={-5.8569336,0.0014390945,4.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 1 Fireteam Leader";
 					isPlayable=1;
 					class Inventory
@@ -2405,13 +2444,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8447266,0.0014390945,3.980957};
+					position[]={-4.8569336,0.0014390945,4.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 1 Autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -2659,14 +2698,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-3.8447266,0.0014390945,3.980957};
+					position[]={-3.8569336,0.0014390945,4.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 1 Assist. autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -2979,13 +3018,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.8447266,0.0014390945,3.980957};
+					position[]={-2.8569336,0.0014390945,4.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 1 Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -3277,14 +3316,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.8447266,0.0014390945,1.980957};
+					position[]={-5.8569336,0.0014390945,2.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 2 Fireteam Leader";
 					isPlayable=1;
 					class Inventory
@@ -3602,13 +3641,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8447266,0.0014390945,1.980957};
+					position[]={-4.8569336,0.0014390945,2.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 2 Autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -3856,14 +3895,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-3.8447266,0.0014390945,1.980957};
+					position[]={-3.8569336,0.0014390945,2.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 2 Assist. autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -4176,13 +4215,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.8447266,0.0014390945,1.980957};
+					position[]={-2.8569336,0.0014390945,2.001709};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Alpha 2 Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -4510,14 +4549,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.3493652,0.0014390945,5.9472656};
+					position[]={-1.3615723,0.0014390945,5.9680176};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="LIEUTENANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo Squad Leader@BRAVO";
 					isPlayable=1;
 					class Inventory
@@ -4866,13 +4905,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.34960938,0.0014390945,5.9467773};
+					position[]={-0.36181641,0.0014390945,5.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo Squad Medic";
 					isPlayable=1;
 					class Inventory
@@ -5193,14 +5232,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.3496094,0.0014390945,3.9467773};
+					position[]={-1.3618164,0.0014390945,3.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 1 Fireteam Leader";
 					isPlayable=1;
 					class Inventory
@@ -5518,13 +5557,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.34960938,0.0014390945,3.9467773};
+					position[]={-0.36181641,0.0014390945,3.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 1 Autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -5772,14 +5811,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.65039063,0.0014390945,3.9467773};
+					position[]={0.63818359,0.0014390945,3.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 1 Assist. autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -6092,13 +6131,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6503906,0.0014390945,3.9467773};
+					position[]={1.6381836,0.0014390945,3.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 1 Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -6390,14 +6429,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.3496094,0.0014390945,1.9467773};
+					position[]={-1.3618164,0.0014390945,1.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 2 Fireteam Leader";
 					isPlayable=1;
 					class Inventory
@@ -6715,13 +6754,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.34960938,0.0014390945,1.9467773};
+					position[]={-0.36181641,0.0014390945,1.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 2 Autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -6969,14 +7008,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.65039063,0.0014390945,1.9467773};
+					position[]={0.63818359,0.0014390945,1.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 2 Assist. autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -7289,13 +7328,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6503906,0.0014390945,1.9467773};
+					position[]={1.6381836,0.0014390945,1.9675293};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Bravo 2 Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -7623,14 +7662,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.9606934,0.0014390945,5.9433594};
+					position[]={3.9484863,0.0014390945,5.9641113};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="LIEUTENANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie Squad Leader@CHARLIE";
 					isPlayable=1;
 					class Inventory
@@ -7979,13 +8018,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.9609375,0.0014390945,5.9418945};
+					position[]={4.9487305,0.0014390945,5.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie Squad Medic";
 					isPlayable=1;
 					class Inventory
@@ -8306,14 +8345,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.9609375,0.0014390945,3.9418945};
+					position[]={3.9487305,0.0014390945,3.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 1 Fireteam Leader";
 					isPlayable=1;
 					class Inventory
@@ -8631,13 +8670,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.9609375,0.0014390945,3.9418945};
+					position[]={4.9487305,0.0014390945,3.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 1 Autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -8885,14 +8924,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.9609375,0.0014390945,3.9418945};
+					position[]={5.9487305,0.0014390945,3.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 1 Assist. autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -9205,13 +9244,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={6.9604492,0.0014390945,3.9418945};
+					position[]={6.9482422,0.0014390945,3.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 1 Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -9503,14 +9542,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.9609375,0.0014390945,1.9418945};
+					position[]={3.9487305,0.0014390945,1.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 2 Fireteam Leader";
 					isPlayable=1;
 					class Inventory
@@ -9828,13 +9867,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.9609375,0.0014390945,1.9418945};
+					position[]={4.9487305,0.0014390945,1.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 2 Autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -10082,14 +10121,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.9609375,0.0014390945,1.9418945};
+					position[]={5.9487305,0.0014390945,1.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 2 Assist. autorifleman";
 					isPlayable=1;
 					class Inventory
@@ -10402,13 +10441,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={6.9604492,0.0014390945,1.9418945};
+					position[]={6.9482422,0.0014390945,1.9626465};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Charlie 2 Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -10736,14 +10775,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.0843506,0.0014390945,-1.1318359};
+					position[]={-6.0964355,0.0014390945,-1.111084};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="MMG Team Leader@MEDIUM MACHINE GUN";
 					isPlayable=1;
 					class Inventory
@@ -11092,13 +11131,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.0839844,0.0014390945,-1.1323242};
+					position[]={-5.0961914,0.0014390945,-1.1115723};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="MMG Gunner";
 					isPlayable=1;
 					class Inventory
@@ -11342,13 +11381,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.0839844,0.0014390945,-1.1323242};
+					position[]={-4.0961914,0.0014390945,-1.1115723};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="MMG Ammo Bearer";
 					isPlayable=1;
 					class Inventory
@@ -11654,14 +11693,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.97338867,0.0014390945,-1.2890625};
+					position[]={-0.9855957,0.0014390945,-1.2683105};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="MAT Team Leader@MEDIUM ANTI-TANK";
 					isPlayable=1;
 					class Inventory
@@ -12010,13 +12049,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.026367188,0.0014390945,-1.2885742};
+					position[]={0.014160156,0.0014390945,-1.2678223};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="MAT Gunner";
 					isPlayable=1;
 					class Inventory
@@ -12281,13 +12320,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.0263672,0.0014390945,-1.2885742};
+					position[]={1.0141602,0.0014390945,-1.2678223};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="MAT Ammo Bearer";
 					isPlayable=1;
 					class Inventory
@@ -12593,7 +12632,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.4302979,0.0014390945,-4.2788086};
+					position[]={-6.442627,0.0014390945,-4.2580566};
 				};
 				side="West";
 				flags=6;
@@ -12944,7 +12983,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.4306641,0.0014390945,-4.277832};
+					position[]={-5.4428711,0.0014390945,-4.2570801};
 				};
 				side="West";
 				flags=4;
@@ -13216,14 +13255,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.98144531,0.0014390945,-4.9272461};
+					position[]={-0.99365234,0.0014390945,-4.9064941};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Mortar Ass. Gunner@MORTAR";
 					isPlayable=1;
 					class Inventory
@@ -13481,13 +13520,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.017578125,0.0014390945,-4.9272461};
+					position[]={0.0053710938,0.0014390945,-4.9064941};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Mortar Gunner";
 					isPlayable=1;
 					class Inventory
@@ -13763,14 +13802,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.9836426,0.0014390945,-1.1787109};
+					position[]={3.9714355,0.0014390945,-1.157959};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Engineer Team Leader@ENGINEERS";
 					isPlayable=1;
 					class Inventory
@@ -14115,13 +14154,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.9833984,0.0014390945,-1.1801758};
+					position[]={4.9711914,0.0014390945,-1.1594238};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Engineer Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -14393,13 +14432,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.9833984,0.0014390945,-1.1801758};
+					position[]={5.9711914,0.0014390945,-1.1594238};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Engineer Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -14671,13 +14710,13 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={6.9833984,0.0014390945,-1.1801758};
+					position[]={6.9711914,0.0014390945,-1.1594238};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;}";
+					init="call{this disableAI ""MOVE"";" \n "this setSpeaker ""NoVoice"";" \n "enableRadio false;" \n "" \n "_helmets = selectRandom [""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_4A"",""UNS_M1_5A"",""UNS_M1_6A"",""UNS_M1_7A"",""UNS_M1_8A"",""UNS_M1_1B"",""UNS_M1_7_baby"",""UNS_M1_3_cal"",""UNS_M1_14_dead"",""UNS_M1_7_lbj"",""UNS_M1_3_loy"",""UNS_M1_6_nyg"",""UNS_M1_6_Outnow"",""UNS_M1_10_vkm"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_5"",""UNS_M1_6"",""UNS_M1_7"",""UNS_M1_8"",""UNS_M1_9"",""UNS_M1_16"",""UNS_M1_17"",""UNS_M1_22"",""UNS_M1_23"",""UNS_M1_1A"", ""UNS_M1_2A"",""UNS_M1_3A"",""UNS_M1_8A"",""UNS_M1_7_baby"",""UNS_M1_14_dead"",""UNS_M1_3_loy"",""UNS_M1_1"",""UNS_M1_2"",""UNS_M1_3"",""UNS_M1_4"",""UNS_M1_9""]; " \n "removeHeadgear this; " \n "this addHeadgear _helmets;}";
 					description="Engineer Rifleman";
 					isPlayable=1;
 					class Inventory
@@ -14985,7 +15024,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.6473389,0.0014390945,-8.355957};
+					position[]={-6.6594238,0.0014390945,-8.3352051};
 				};
 				side="West";
 				flags=7;
@@ -15329,7 +15368,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.6484375,0.0014390945,-8.3569336};
+					position[]={-5.6606445,0.0014390945,-8.3361816};
 				};
 				side="West";
 				flags=5;
@@ -15597,7 +15636,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.6484375,0.0014390945,-8.3569336};
+					position[]={-4.6606445,0.0014390945,-8.3361816};
 				};
 				side="West";
 				flags=5;
@@ -15892,7 +15931,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.0390625,0.0014390945,-8.0571289};
+					position[]={-1.0512695,0.0014390945,-8.036377};
 				};
 				side="West";
 				flags=7;
@@ -16206,7 +16245,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.0390625,0.0014390945,-8.0581055};
+					position[]={-0.051269531,0.0014390945,-8.0373535};
 				};
 				side="West";
 				flags=5;
@@ -16548,7 +16587,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={2.9616699,0.0014390945,-8.0566406};
+					position[]={2.9494629,0.0014390945,-8.0358887};
 				};
 				side="West";
 				flags=7;
@@ -16928,7 +16967,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.9833984,0.0014390945,-4.9267578};
+					position[]={3.9711914,0.0014390945,-4.9060059};
 				};
 				side="West";
 				flags=7;
@@ -17184,7 +17223,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.9833984,0.0014390945,-4.9267578};
+					position[]={4.9711914,0.0014390945,-4.9060059};
 				};
 				side="West";
 				flags=5;
@@ -17469,7 +17508,7 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={0.37402344,0,-0.36279297};
+			position[]={0.36181641,0,-0.34204102};
 		};
 		areaSize[]={200,-1,200};
 		areaIsRectangle=1;
@@ -17543,7 +17582,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={7.6846924,0.28405476,-6.8857422};
+			position[]={7.6726074,0.28405476,-6.8649902};
 		};
 		side="Empty";
 		flags=4;
@@ -17584,7 +17623,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={5.8186035,0.18872452,-10.119629};
+			position[]={5.8063965,0.18872452,-10.098877};
 		};
 		side="Empty";
 		flags=4;
