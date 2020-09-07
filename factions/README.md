@@ -3,7 +3,6 @@ A selection of faction compositions created for the Arma 3 community <a rel="cnt
 
 These faction compositions are intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
 
-A list describing each scenario will be published in time on the wiki tab.
 
 
 

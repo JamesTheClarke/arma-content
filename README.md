@@ -1,4 +1,4 @@
-# Arma 3 Missions
+# Arma 3 Content
 A selection of content created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
 
 This content intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
