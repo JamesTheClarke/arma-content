@@ -2,6 +2,8 @@
 A selection of faction compositions created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
 
 These faction compositions are intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
+
+The factions are described in more detail on the <a rel="wiki" href="https://github.com/JamesTheClarke/arma-content/wiki">wiki tab</a>.
 <br/>
 ## Installation
 Place the faction composition folders in the following path:
