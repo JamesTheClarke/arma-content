@@ -3,7 +3,7 @@ A selection of missions created for the Arma 3 community <a rel="cnto" href="htt
 
 These missions are intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
 
-A list describing each scenario will be published in time on the wiki tab.
+The scenarios are described in more detail on the <a rel="wiki" href="https://github.com/JamesTheClarke/arma-content/wiki">wiki tab</a>.
 <br/>
 <br/>
 # Copyright License
