@@ -4,10 +4,10 @@ A selection of content created for the Arma 3 community <a rel="cnto" href="http
 This content intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
 
 A list describing each scenario will be published in time on the wiki tab.
-
-
-
-
+<br/>
+<br/>
 # Copyright License
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.
+This work is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.
+<br/>
+<br/>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
