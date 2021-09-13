@@ -4,8 +4,10 @@ author="JamesTheClarke";
 category="CNTOCustomFaction";
 requiredAddons[]=
 {
+	"rhsusf_c_melb",
+	"ace_compat_rhs_usf3",
+	"UK3CB_Factions_AAF_I",
 	"A3_Weapons_F_Ammoboxes",
-	"A3_Ui_F",
 	"Desert",
 	"ace_medical_treatment",
 	"a3aa_ee_custom_location",
@@ -36,7 +38,6 @@ requiredAddons[]=
 	"A3_Weapons_F_Mod_SMGs_SMG_03",
 	"A3_Weapons_F_Mod",
 	"rhsusf_c_troops",
-	"ace_compat_rhs_usf3",
 	"compat_vsm_accs",
 	"VSM_Shemagh_config",
 	"UK3CB_Factions_Facegear",
@@ -58,19 +59,17 @@ requiredAddons[]=
 	"UK3CB_Factions_Weapons_MG3",
 	"A3_Characters_F_Heads",
 	"hlcweapons_mp5",
+	"UK3CB_Factions_CHC_C",
+	"UK3CB_Factions_Equipment_Vests",
 	"A3_Weapons_F_Pistols_Pistol_Heavy_02",
 	"A3_Characters_F_AoW",
 	"rhs_c_troops",
 	"ace_chemlights",
-	"UK3CB_Factions_CHC_C",
-	"UK3CB_Factions_Equipment_Vests",
 	"ace_gforces",
 	"ace_parachute",
 	"ace_nightvision",
 	"UK3CB_Factions_TKA_I",
 	"A3_Weapons_F_Items",
 	"ace_explosives",
-	"A3_Air_F_Heli_Light_01",
-	"rhsusf_c_melb",
-	"UK3CB_Factions_AAF_I"
+	"A3_Air_F_Heli_Light_01"
 };
