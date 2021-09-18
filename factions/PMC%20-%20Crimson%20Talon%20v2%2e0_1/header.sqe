@@ -4,9 +4,6 @@ author="JamesTheClarke";
 category="CNTOCustomFaction";
 requiredAddons[]=
 {
-	"rhsusf_c_melb",
-	"ace_compat_rhs_usf3",
-	"UK3CB_Factions_AAF_I",
 	"A3_Weapons_F_Ammoboxes",
 	"Desert",
 	"ace_medical_treatment",
@@ -38,6 +35,7 @@ requiredAddons[]=
 	"A3_Weapons_F_Mod_SMGs_SMG_03",
 	"A3_Weapons_F_Mod",
 	"rhsusf_c_troops",
+	"ace_compat_rhs_usf3",
 	"compat_vsm_accs",
 	"VSM_Shemagh_config",
 	"UK3CB_Factions_Facegear",
@@ -71,5 +69,9 @@ requiredAddons[]=
 	"UK3CB_Factions_TKA_I",
 	"A3_Weapons_F_Items",
 	"ace_explosives",
-	"A3_Air_F_Heli_Light_01"
+	"A3_Ui_F",
+	"A3_Air_F_Heli_Light_01",
+	"rhsusf_c_melb",
+	"acre_sys_intercom",
+	"UK3CB_Factions_AAF_I"
 };
