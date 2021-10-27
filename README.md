@@ -1,5 +1,7 @@
 <!--- CNTO GitHub Repository README file -->
 
+/github/issues/:user/:repo
+
 ## Arma 3 Content <!--- Repository name with short description of the repo and, if available, link to the wiki -->
 
 A selection of content created for the Arma 3 community [Carpe Noctem - Tactical Operations (CNTO)](https://www.carpenoctem.co/).
@@ -9,7 +11,7 @@ This content intended to be utilised with CNTO mod repositories. Please check mo
 
 ## Maintenance <!--- Who is responsible for this repository (entire branch / branch member / community member) with link to the GitHub team / profile -->
 
-This repository is maintained by [Clarke](https://github.com/JamesTheClarke).\
+This repository is maintained by [Clarke](https://github.com/JamesTheClarke).
 
 ## Copyright License
 
