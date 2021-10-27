@@ -1,13 +1,18 @@
-# Arma 3 Content
-A selection of content created for the Arma 3 community <a rel="cnto" href="https://www.carpenoctem.co/">Carpe Noctem - Tactical Operations (CNTO)</a>.
+<!--- CNTO GitHub Repository README file -->
 
-This content intended to be played with CNTO mod repositories. Please check mod dependencies to avoid errors.
+## Arma 3 Content <!--- Repository name with short description of the repo and, if available, link to the wiki -->
 
-A list describing each scenario will be published in time on the wiki tab.
-<br/>
-<br/>
-# Copyright License
-This work is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>.
-<br/>
-<br/>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+A selection of content created for the Arma 3 community [Carpe Noctem - Tactical Operations (CNTO)](https://www.carpenoctem.co/).
+
+This content intended to be utilised with CNTO mod repositories. Please check mod dependencies to avoid errors.
+
+
+## Maintenance <!--- Who is responsible for this repository (entire branch / branch member / community member) with link to the GitHub team / profile -->
+
+This repository is maintained by [Clarke](https://github.com/JamesTheClarke).
+
+
+## Copyright License
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+This work is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0).
