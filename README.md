@@ -1,6 +1,6 @@
 <!--- CNTO GitHub Repository README file -->
 
-![GitHub issues](https://img.shields.io/github/issues-raw/JamesTheClarke/arma-content?color=red&style=flat-square) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/JamesTheClarke/arma-content?color=brightgreen&style=flat-square) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/JamesTheClarke/arma-content?color=red&style=flat-square) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/JamesTheClarke/arma-content?url=<https://discord.com/channels/154907081256730624>?color=brightgreen&style=flat-square) ![Discord](https://img.shields.io/discord/154907081256730624?color=%235865F2&label=Discord&logo=Discord&logoColor=ffffff&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/JamesTheClarke/arma-content?color=red&style=flat-square) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/JamesTheClarke/arma-content?color=brightgreen&style=flat-square) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/JamesTheClarke/arma-content?color=red&style=flat-square) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/JamesTheClarke/arma-content?color=brightgreen&style=flat-square) ![Discord](https://img.shields.io/discord/154907081256730624?color=%235865F2&label=Discord&logo=Discord&logoColor=ffffff&style=flat-square)
 
 
 ## Arma 3 Content <!--- Repository name with short description of the repo and, if available, link to the wiki -->
