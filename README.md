@@ -1,6 +1,6 @@
 <!--- CNTO GitHub Repository README file -->
 
-/github/issues/:user/:repo
+https://img.shields.io/github/issues/JamesTheClarke/arma-content
 
 ## Arma 3 Content <!--- Repository name with short description of the repo and, if available, link to the wiki -->
 
