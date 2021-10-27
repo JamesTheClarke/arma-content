@@ -1,6 +1,6 @@
 <!--- CNTO GitHub Repository README file -->
 
-![GitHub issues](https://img.shields.io/github/issues/JamesTheClarke/arma-content) ![GitHub closed issues](https://img.shields.io/github/issues-closed/JamesTheClarke/arma-content?logoColor=brightgreen&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/JamesTheClarke/arma-content?color=red&style=flat-square) ![GitHub closed issues](https://img.shields.io/github/issues-closed/JamesTheClarke/arma-content?color=brightgreen&style=flat-square)
 
 
 ## Arma 3 Content <!--- Repository name with short description of the repo and, if available, link to the wiki -->
